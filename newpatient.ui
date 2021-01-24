@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Newpatient</class>
+ <widget class="QDialog" name="Newpatient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>331</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="hasta_adi">
+        <property name="text">
+         <string> Ad:                    </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="hasta_soyadi">
+        <property name="text">
+         <string> Soyad:                   </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="hasta_yasi">
+        <property name="text">
+         <string> Yaş:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="cinsiyet">
+        <property name="text">
+         <string>Cinsiyet:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="dogum_tarihi">
+        <property name="text">
+         <string>Doğum tarihi:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tel_no">
+        <property name="text">
+         <string>Tel no:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="email">
+        <property name="text">
+         <string>Email:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLineEdit" name="ad_txt"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="soyad_txt"/>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="yas_txt">
+        <property name="maximum">
+         <number>120</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QRadioButton" name="erkek_radio_btn">
+          <property name="text">
+           <string>Erkek</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="kadin_radio_btn">
+          <property name="text">
+           <string>Kadın</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dogum_tarihi_txt"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="tel_no_txt"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="email_txt"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="kaydet_btn">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>320</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kaydet</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
